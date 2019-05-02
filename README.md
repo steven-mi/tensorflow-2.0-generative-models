@@ -1,5 +1,5 @@
 # Generative-Adversarial-Networks-Experiments
-This repository contains experiments with GANs with Tensorflow 2.0.0a0
+This repository contains experiments with GANs with Tensorflow 2.0.0a0. Still working on the repository.
 
 ## TODO
 - README.md
