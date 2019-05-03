@@ -22,7 +22,6 @@ This repository contains jupyter notebooks with generative models implemented in
 ## Implemented GANs
 - [Simple Generative Adversarial Network](https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks/blob/master/simple-generative-adversarial-network.ipynb)
 - [Deep Convolutional Generative Adversarial Network](https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks/blob/master/deep-convolutional-generative-adversarial-network.ipynb)
-
 - [Wasserstein Gernerative Adversarial Network](https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks/blob/master/wasserstein-generative-adversarial-network.ipynb)
 
 ## TODO
