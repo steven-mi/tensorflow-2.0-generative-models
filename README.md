@@ -29,4 +29,6 @@ This repository contains jupyter notebooks with generative models implemented in
 - Documentation of Simple GAN
 - Documentation of Deep Convolutional GAN
 - Documenation of Wasserstein GAN
+- Documentation of Wasserstein GAN GP
+- Documentation of Condiional GAN
 - Implementation of other GANs
