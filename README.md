@@ -7,10 +7,12 @@ This repository contains jupyter notebooks with generative models implemented in
   - Install tensorflow 2.0.0a0 with GPU support:
     ```bash
     pip install tensorflow-gpu==2.0.0-alpha0 
+    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
     ```
   - without GPU support:
     ```bash
-    pip install tensorflow==2.0.0-alpha0 
+    pip install tensorflow==2.0.0-alpha0
+    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
     ```
   **Note:** You need CUDA >= 10.0 in order to run tensorflow 2.0
 - **without Docker:** Pull from the official tensorflow dockerhub account the `tensorflow:2.0.0a0` container, clone the repository and run the notebooks.
@@ -18,12 +20,12 @@ This repository contains jupyter notebooks with generative models implemented in
   - with GPU:
     ```bash
     nvidia-docker run -it --rm tensorflow/tensorflow:2.0.0a0-gpu-py3-jupyter bash
-    git clone https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks.git
+    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
     ```
   - without GPU
     ```bash
     docker run -it --rm tensorflow/tensorflow:2.0.0a0-py3-jupyter bash
-    git clone https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks.git
+    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
     ```
 
 ## Implemented Autoencoder
