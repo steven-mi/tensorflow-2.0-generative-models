@@ -14,8 +14,7 @@ This repository contains jupyter notebooks with generative models implemented in
   nvidia-docker run -it --rm tensorflow/tensorflow:2.0.0a0-gpu-py3-jupyter bash
   https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
     ```
-
-**Note:** If you don't have a GPU then just drop the `gpu` tag. I don't recommend runnig a generative model on a CPU.
+  **Note:** If you don't have a GPU then just drop the `gpu` tag. I don't recommend runnig a generative model on a CPU.
 
 ## Implemented Autoencoder
 - [Variational Autoencoder](https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks/blob/master/variational-autoencoder.ipynb)
