@@ -3,30 +3,19 @@ This repository contains jupyter notebooks with generative models implemented in
 
 ## Getting Started 
 
-- **without Docker:** 
-  - Install tensorflow 2.0.0a0 with GPU support:
-    ```bash
-    pip install tensorflow-gpu==2.0.0-alpha0 
-    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
-    ```
-  - without GPU support:
-    ```bash
-    pip install tensorflow==2.0.0-alpha0
-    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
-    ```
+- **without Docker:** Install tensorflow 2.0.0a0 with GPU support:
+  ```bash
+  pip install tensorflow-gpu==2.0.0-alpha0 
+  https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
+  ```
   **Note:** You need CUDA >= 10.0 in order to run tensorflow 2.0
 - **without Docker:** Pull from the official tensorflow dockerhub account the `tensorflow:2.0.0a0` container, clone the repository and run the notebooks.
+  ```bash
+  nvidia-docker run -it --rm tensorflow/tensorflow:2.0.0a0-gpu-py3-jupyter bash
+  https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
+    ```
 
-  - with GPU:
-    ```bash
-    nvidia-docker run -it --rm tensorflow/tensorflow:2.0.0a0-gpu-py3-jupyter bash
-    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
-    ```
-  - without GPU
-    ```bash
-    docker run -it --rm tensorflow/tensorflow:2.0.0a0-py3-jupyter bash
-    https://github.com/steven-mi/Tensorflow-2.0-Generative-Models.git
-    ```
+**Note:** If you don't have a GPU then just drop the `gpu` tag. I don't recommend runnig a generative model on a CPU.
 
 ## Implemented Autoencoder
 - [Variational Autoencoder](https://github.com/steven-mi/Tensorflow-2.0-Generative-Adversarial-Networks/blob/master/variational-autoencoder.ipynb)
