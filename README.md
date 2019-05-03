@@ -21,4 +21,6 @@ Pull from the official tensorflow dockerhub account the `tensorflow:2.0.0a0` con
 - Documentation of VAE
 - Documentation of Simple GAN
 - Documentation of Deep Convolutional GAN
+- Documenation of Wasserstein GAN
+- README rework
 - Implementation of other GANs
