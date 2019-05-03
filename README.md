@@ -1,7 +1,20 @@
 # Generative-Networks
 This repository contains jupyter notebooks with generative models implemented in tensorflow 2.0.0a0.
 
-## Getting Started (with Docker)
+## Getting Started 
+
+### without Docker
+Install tensorflow 2.0.0a0 with GPU support:
+```bash
+pip install tensorflow-gpu==2.0.0-alpha0 
+```
+without GPU support:
+```bash
+pip install tensorflow==2.0.0-alpha0 
+```
+**Note:** You need CUDA >= 10.0 in order to run tensorflow 2.0
+
+### with Docker
 Pull from the official tensorflow dockerhub account the `tensorflow:2.0.0a0` container, clone the repository and run the notebooks.
 
 - with GPU:
