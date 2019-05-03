@@ -2,7 +2,8 @@
 This repository contains jupyter notebooks with generative models implemented in tensorflow 2.0.0a0.
 
 ## Getting Started (with Docker)
-Pull from the official tensorflow dockerhub account the `tensorflow:2.0.0a0` container.
+Pull from the official tensorflow dockerhub account the `tensorflow:2.0.0a0` container, clone the repository and run the notebooks.
+
 - with GPU:
   ```bash
   nvidia-docker run -it --rm tensorflow/tensorflow:2.0.0a0-gpu-py3-jupyter bash
